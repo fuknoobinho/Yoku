@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Yoku/static/css/main.6a5fe061.css",
+    "main.js": "/Yoku/static/js/main.3300f0ba.js",
+    "static/js/787.a86f3764.chunk.js": "/Yoku/static/js/787.a86f3764.chunk.js",
+    "static/media/google.png": "/Yoku/static/media/google.12f28333ed4e336cf569.png",
+    "static/media/apple.png": "/Yoku/static/media/apple.f28dd8ca894c6433f87a.png",
+    "static/media/microsoft.png": "/Yoku/static/media/microsoft.22fe9cdc4a32b2538725.png",
+    "index.html": "/Yoku/index.html",
+    "main.6a5fe061.css.map": "/Yoku/static/css/main.6a5fe061.css.map",
+    "main.3300f0ba.js.map": "/Yoku/static/js/main.3300f0ba.js.map",
+    "787.a86f3764.chunk.js.map": "/Yoku/static/js/787.a86f3764.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a5fe061.css",
+    "static/js/main.3300f0ba.js"
+  ]
+}
