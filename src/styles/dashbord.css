@@ -1,0 +1,70 @@
+#card {
+  border: solid 2px black;
+  margin: 70px 250px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: #efefef;
+}
+.pfp-erea {
+  height: 100%;
+  width: 300px;
+  margin-right: 10px;
+}
+.pfp-erea img {
+  border-radius: 50%;
+  height: 92px;
+  width: 92px;
+  border: #0c8265 solid 2px;
+  transition: 0.7s ease transform;
+}
+.pfp-erea img:hover {
+  transform: scale(1.2);
+}
+.information p {
+  font-size: large;
+  font-family: sans-serif;
+  font-style: bold;
+  margin-bottom: 10px;
+}
+.information button {
+  height: 52px;
+  width: 344px;
+  font-size: larger;
+  border: none;
+  background-color: #10a37f;
+  color: white;
+  transition: 0.5s background-color;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.information button:hover {
+  background-color: #0c8265;
+}
+h1 {
+  margin-top: 100px;
+}
+@media screen and (max-width: 1015px) {
+  #card {
+    flex-direction: column;
+    margin: 70px auto;
+    width: 350px;
+  }
+  .pfp-erea {
+    height: 100%;
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .information p {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 415px) {
+  #card {
+    flex-direction: column;
+    width: auto;
+    margin: 70px 20px;
+  }
+}
